@@ -18,5 +18,5 @@ What is MERN?
     - Scalable web server
     - Node Package Manager
 
-npm init -> initializing new node js app
-npm install express --save
+#npm init -> initializing new node js app
+#npm install express --save
