@@ -18,6 +18,21 @@ What is MERN?
     - Scalable web server
     - Node Package Manager
 
-Scripts
+Nodejs scripts
 - npm init -> initializing new node js app
 - npm install express --save
+- npm start
+- npm i dotenv
+- npm i nodemon
+- npm i axios
+- npm i mongoose
+- npm i express-async-handler
+- npm i jsonwebtoken
+- npm i bcryptjs
+- npm install socket.io
+
+React scripts
+- npx create-react-app frontend
+- npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
+- npm install react-router-dom@5
+- npm i @chakra-ui/icons

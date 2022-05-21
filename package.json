@@ -4,11 +4,18 @@
     "description": "What is MERN? - MongoDB     - Database management     - Cross platform, No SQL and document-oriented - Express JS     - Node JS framework     - Powerful Routing API     - Detailed Documentation     - High Performance     - Many third party plugins - React JS     - Frontend framework     - Reusable component     - Virtual DOM: keeps UI prerendered in memory     - Super fast - Node JS     - Javascript runtime build on Chrome's V8 Engine     - Scalable web server     - Node Package Manager",
     "main": "server.js",
     "scripts": {
-        "start": "node backend/server.js"
+        "start": "nodemon backend/server.js"
     },
     "author": "erick.jaucian",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.18.1"
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-async-handler": "^1.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.3.3",
+        "nodemon": "^2.0.16",
+        "socket.io": "^4.5.1"
     }
 }
