@@ -36,3 +36,10 @@ React scripts
 - npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
 - npm install react-router-dom@5
 - npm i @chakra-ui/icons
+
+Others
+- sudo lsof -i -P -n | grep LISTEN
+
+- sudo netstat -lpn |grep :8080
+- kill -9 PID
+- pm2 kill

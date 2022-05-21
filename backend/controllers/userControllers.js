@@ -49,6 +49,9 @@ const authUser = asyncHandler(async (req, res) => {
       pic: user.pic,
       token: generateToken(user._id),
     });
+  } else {
+    res.status(403);
+    throw new Error("Wrong credentials");
   }
 });
 
